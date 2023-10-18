@@ -12,5 +12,5 @@ data class Score (
     @ColumnInfo(name = "score_name")
     var scoreName:String = "",
     @ColumnInfo(name = "score_score")
-    var scoreScore:String = ""
+    var scoreScore:String = "0"
 )
